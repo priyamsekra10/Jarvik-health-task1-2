@@ -1,0 +1,212 @@
+2024-12-23 12:11:07,685 - root - INFO - Starting up the application
+2024-12-23 12:11:34,649 - root - INFO - Starting up the application
+2024-12-23 12:12:33,547 - root - INFO - Starting up the application
+2024-12-23 12:17:43,076 - root - INFO - Starting up the application
+2024-12-23 12:17:50,137 - root - INFO - Processing audio request for chat_id: chat123, user_id: user456
+2024-12-23 12:17:50,137 - root - INFO - Downloading audio from: https://example.com/audio.mp3
+2024-12-23 12:17:51,134 - root - WARNING - Failed to download audio, status code: 404
+2024-12-23 12:17:51,135 - root - INFO - Starting audio transcription
+2024-12-23 12:17:51,135 - root - ERROR - Error during transcription
+Traceback (most recent call last):
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/jarvic-health-api/app/main.py", line 67, in process_audio
+    with open(audio_file_path, "rb") as audio_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'audio.mp3'
+2024-12-23 12:20:32,503 - root - INFO - Starting up the application
+2024-12-23 12:21:25,261 - root - INFO - Processing audio request for chat_id: chat123, user_id: user456
+2024-12-23 12:21:25,262 - root - INFO - Downloading audio from: https://example.com/audio.mp3
+2024-12-23 12:21:26,364 - root - WARNING - Failed to download audio, status code: 404
+2024-12-23 12:21:26,364 - root - INFO - Starting audio transcription
+2024-12-23 12:21:29,189 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-12-23 12:21:29,192 - root - INFO - Audio transcription completed successfully
+2024-12-23 12:21:29,192 - root - INFO - Generating summary using GPT-4
+2024-12-23 12:21:32,722 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-23 12:21:32,729 - root - INFO - Summary generation completed
+2024-12-23 12:21:32,730 - root - INFO - Saving audio processing record to database for process_id: er456
+2024-12-23 12:21:35,568 - root - INFO - Database record saved successfully
+2024-12-23 12:21:35,568 - root - INFO - Audio processing completed successfully for process_id: er456
+2024-12-23 12:23:44,531 - root - INFO - Starting up the application
+2024-12-23 12:24:18,843 - root - INFO - Starting up the application
+2024-12-23 12:24:24,887 - root - INFO - Processing audio request for chat_id: chat123, user_id: user456
+2024-12-23 12:24:24,888 - root - INFO - Downloading audio from: https://example.com/audio.mp3
+2024-12-23 12:24:25,887 - root - WARNING - Failed to download audio, status code: 404
+2024-12-23 12:24:25,887 - root - INFO - Starting audio transcription
+2024-12-23 12:24:27,814 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-12-23 12:24:27,818 - root - INFO - Audio transcription completed successfully
+2024-12-23 12:24:27,819 - root - INFO - Generating summary using GPT-4
+2024-12-23 12:24:28,936 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-23 12:24:28,944 - root - INFO - Summary generation completed
+2024-12-23 12:24:28,946 - root - INFO - Saving audio processing record to database for process_id: er456
+2024-12-23 12:24:31,648 - root - INFO - Database record saved successfully
+2024-12-23 12:24:31,648 - root - INFO - Audio processing completed successfully for process_id: er456
+2024-12-23 12:25:29,001 - root - INFO - Starting up the application
+2024-12-23 12:27:15,459 - root - INFO - Processing narrative combination request for visit_id: VIS_20241223_001
+2024-12-23 12:27:15,460 - root - INFO - Generating narrative using GPT-4
+2024-12-23 12:27:19,439 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-23 12:27:19,449 - root - INFO - Narrative generation completed
+2024-12-23 12:27:19,450 - root - INFO - Saving narrative record to database for visit_id: VIS_20241223_001
+2024-12-23 12:27:22,354 - root - INFO - Database record saved successfully
+2024-12-23 12:27:22,354 - root - INFO - Narrative combination completed successfully for visit_id: VIS_20241223_001
+2024-12-23 12:28:35,063 - root - INFO - Starting up the application
+2024-12-23 12:28:43,431 - root - INFO - Processing narrative combination request for visit_id: VIS_20241223_001
+2024-12-23 12:28:43,432 - root - INFO - Generating narrative using GPT-4
+2024-12-23 12:28:49,464 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-23 12:28:49,489 - root - INFO - Narrative generation completed
+2024-12-23 12:28:49,490 - root - INFO - Saving narrative record to database for visit_id: VIS_20241223_001
+2024-12-23 12:28:52,313 - root - INFO - Database record saved successfully
+2024-12-23 12:28:52,314 - root - INFO - Narrative combination completed successfully for visit_id: VIS_20241223_001
+2024-12-23 12:31:06,772 - root - INFO - Starting up the application
+2024-12-23 12:31:10,381 - root - INFO - Processing narrative combination request for visit_id: VIS_20241223_001
+2024-12-23 12:31:10,381 - root - INFO - Generating narrative using GPT-4
+2024-12-23 12:31:16,086 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-23 12:31:16,093 - root - INFO - Narrative generation completed
+2024-12-23 12:31:16,094 - root - INFO - Saving narrative record to database for visit_id: VIS_20241223_001
+2024-12-23 12:31:18,951 - root - INFO - Database record saved successfully
+2024-12-23 12:31:18,951 - root - INFO - Narrative combination completed successfully for visit_id: VIS_20241223_001
+2024-12-23 17:51:32,702 - root - INFO - Starting up the application
+2024-12-23 17:52:26,560 - root - INFO - Processing audio request for chat_id: chat123, user_id: user456
+2024-12-23 17:52:26,561 - root - INFO - Downloading audio from: https://example.com/audio.mp3
+2024-12-23 17:52:27,532 - root - WARNING - Failed to download audio, status code: 404
+2024-12-23 17:52:27,533 - root - INFO - Starting audio transcription
+2024-12-23 17:52:30,564 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-12-23 17:52:30,566 - root - INFO - Audio transcription completed successfully
+2024-12-23 17:52:30,566 - root - INFO - Generating summary using GPT-4
+2024-12-23 17:52:31,843 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-23 17:52:31,846 - root - INFO - Summary generation completed
+2024-12-23 17:52:31,846 - root - INFO - Saving audio processing record to database for process_id: er456
+2024-12-23 17:52:34,484 - root - INFO - Database record saved successfully
+2024-12-23 17:52:34,485 - root - INFO - Audio processing completed successfully for process_id: er456
+2024-12-23 17:53:06,074 - root - INFO - Processing narrative combination request for visit_id: VIS_20241223_001
+2024-12-23 17:53:06,075 - root - INFO - Generating narrative using GPT-4
+2024-12-23 17:53:11,370 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-23 17:53:11,380 - root - INFO - Narrative generation completed
+2024-12-23 17:53:11,380 - root - INFO - Saving narrative record to database for visit_id: VIS_20241223_001
+2024-12-23 17:53:13,946 - root - INFO - Database record saved successfully
+2024-12-23 17:53:13,946 - root - INFO - Narrative combination completed successfully for visit_id: VIS_20241223_001
+2024-12-24 01:08:32,461 - root - INFO - User testuser processing audio request for chat_id: loihoi
+2024-12-24 01:08:32,462 - root - INFO - Downloading audio from: koagiu
+2024-12-24 01:08:32,462 - root - ERROR - Error downloading audio: name 'requests' is not defined
+Traceback (most recent call last):
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/jarvic-health-api/app/main.py", line 62, in process_audio
+    response = requests.get(input.audio_link, stream=True)
+               ^^^^^^^^
+NameError: name 'requests' is not defined
+2024-12-24 01:08:32,465 - root - ERROR - Global exception handler caught: name 'os' is not defined
+Traceback (most recent call last):
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/jarvic-health-api/app/main.py", line 62, in process_audio
+    response = requests.get(input.audio_link, stream=True)
+               ^^^^^^^^
+NameError: name 'requests' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/starlette/routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/starlette/routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/jarvic-health-api/app/main.py", line 71, in process_audio
+    if os.path.exists(audio_file_path):
+       ^^
+NameError: name 'os' is not defined
+2024-12-24 01:09:10,208 - root - INFO - User testuser processing audio request for chat_id: loihoi
+2024-12-24 01:09:10,213 - root - INFO - Downloading audio from: koagiu
+2024-12-24 01:09:10,215 - root - ERROR - Error downloading audio: Invalid URL 'koagiu': No scheme supplied. Perhaps you meant https://koagiu?
+Traceback (most recent call last):
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/jarvic-health-api/app/main.py", line 64, in process_audio
+    response = requests.get(input.audio_link, stream=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/requests/sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/requests/sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/requests/models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/requests/models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'koagiu': No scheme supplied. Perhaps you meant https://koagiu?
+2024-12-24 01:09:10,216 - root - INFO - Using fallback audio.mp3
+2024-12-24 01:09:10,216 - root - INFO - Starting audio transcription
+2024-12-24 01:09:10,216 - root - ERROR - Error during transcription
+Traceback (most recent call last):
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/jarvic-health-api/app/main.py", line 83, in process_audio
+    transcription = client.audio.transcriptions.create(
+                    ^^^^^^
+NameError: name 'client' is not defined
+2024-12-24 01:15:20,563 - root - INFO - Starting up the application
+2024-12-24 01:16:00,699 - root - INFO - User testuser processing audio request for chat_id: loihoi
+2024-12-24 01:16:00,699 - root - INFO - Downloading audio from: koagiu
+2024-12-24 01:16:00,703 - root - ERROR - Error downloading audio: Invalid URL 'koagiu': No scheme supplied. Perhaps you meant https://koagiu?
+Traceback (most recent call last):
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/jarvic-health-api/app/main.py", line 96, in process_audio
+    response = requests.get(input.audio_link, stream=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/requests/sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/requests/sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/requests/models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "/Users/priyamsekra/my_code/DATA 2/AIML_Project_Linkdin/venv/lib/python3.11/site-packages/requests/models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL 'koagiu': No scheme supplied. Perhaps you meant https://koagiu?
+2024-12-24 01:16:00,706 - root - INFO - Using fallback audio.mp3
+2024-12-24 01:16:00,706 - root - INFO - Starting audio transcription
+2024-12-24 01:16:03,231 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-12-24 01:16:03,234 - root - INFO - Audio transcription completed successfully
+2024-12-24 01:16:03,234 - root - INFO - Generating summary using GPT-4
+2024-12-24 01:16:05,215 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-24 01:16:05,224 - root - INFO - Summary generation completed
+2024-12-24 01:16:05,225 - root - INFO - Saving audio processing record to database for process_id: oihoi
+2024-12-24 01:16:08,042 - root - INFO - Database record saved successfully
+2024-12-24 01:16:08,042 - root - INFO - Audio processing completed successfully for process_id: oihoi
+2024-12-24 01:20:29,464 - root - INFO - User testuser processing narrative request for visit_id: visit123
+2024-12-24 01:20:29,465 - root - INFO - Generating narrative using GPT-4
+2024-12-24 01:20:33,898 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-24 01:20:33,913 - root - INFO - Narrative generation completed
+2024-12-24 01:20:33,913 - root - INFO - Saving narrative record to database for visit_id: visit123
+2024-12-24 01:20:36,532 - root - INFO - Database record saved successfully
+2024-12-24 01:20:36,533 - root - INFO - Narrative combination completed successfully for visit_id: visit123
+2024-12-24 22:16:50,971 - root - INFO - Starting up the application
+2024-12-24 22:18:47,746 - root - INFO - User testuser processing audio request for chat_id: loihoi
+2024-12-24 22:18:47,748 - root - INFO - Attempting to download audio from: http://your-domain:8000/audio/download/yourfile.mp3
+2024-12-24 22:18:47,775 - root - WARNING - Failed to download audio: HTTPConnectionPool(host='your-domain', port=8000): Max retries exceeded with url: /audio/download/yourfile.mp3 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x1123bee50>: Failed to resolve 'your-domain' ([Errno 8] nodename nor servname provided, or not known)"))

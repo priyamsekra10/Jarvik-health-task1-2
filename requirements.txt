@@ -1,0 +1,14 @@
+python-multipart
+fastapi
+uvicorn
+python-dotenv
+openai
+python-docx
+pymysql
+mysql-connector-python
+python-jose[cryptography] 
+passlib==1.7.4
+bcrypt==3.2.0
+# passlib[bcrypt] 
+requests
+pydantic_settings
